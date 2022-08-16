@@ -127,8 +127,8 @@ public class TechJobs {
             String jobString = "";
             for (String field : job.keySet()) {
                 jobString += field + ": " + job.get(field)+ "\n";
-                System.out.println("*****\n" + jobString + "*****\n");
             }
+            System.out.println("*****\n" + jobString + "*****\n");
         }
 
     }
